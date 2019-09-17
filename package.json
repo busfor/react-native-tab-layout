@@ -1,0 +1,36 @@
+{
+  "name": "react-native-tab-layout",
+  "title": "React Native Tab Layout",
+  "version": "1.0.0",
+  "description": "TODO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/busfor/react-native-tab-layout.git",
+    "baseUrl": "https://github.com/busfor/react-native-tab-layout"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": {
+    "name": "Andrey Sorokin",
+    "email": "sorokin0andrey@gmail.com"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "@react-native-community/viewpager": ">=1.1.7",
+    "react": "^16.8.1",
+    "react-native": ">=0.57"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.1",
+    "@types/react-native": "^0.57",
+    "react": "^16.8.3",
+    "react-native": "^0.59.10"
+  }
+}
