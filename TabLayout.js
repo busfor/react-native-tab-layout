@@ -8,7 +8,7 @@ export default memo(({ viewPagerRef, items, ...props }) => {
 
   useEffect(() => {
     if (viewPagerRef) {
-      const viewPagerId = findNodeHandle(viewPagerRef)
+      const viewPagerId = findNodeHandle(viewPagerRef.current)
       if (viewPagerId) {
         UIManager.dispatchViewManagerCommand(
           findNodeHandle(ref.current),
